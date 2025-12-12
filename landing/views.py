@@ -50,7 +50,7 @@ Nội dung: {data.get('message') or 'Không có'}
                     subject=subject,
                     message=message_body,
                     from_email=getattr(settings, 'DEFAULT_FROM_EMAIL', 'noreply@truonggia.vn'),
-                    recipient_list=['giaiphaptruonggia@gmail.com'],
+                    recipient_list=['lienhe@truonggiagp.com'],
                     fail_silently=True,
                 )
             except Exception as e:
